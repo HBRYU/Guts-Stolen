@@ -23,7 +23,7 @@ MonoBehaviour:
     localScale: {x: 1, y: 1, z: 1}
   - path: Bone_Hip/Bone_Torso/Bone_Head
     localPosition: {x: 0.29887015, y: -2.8422002e-13, z: 0}
-    localRotation: {x: 0, y: 0, z: -0.0052724234, w: 0.9999862}
+    localRotation: {x: 0, y: 0, z: -0.0000519274, w: 1}
     localScale: {x: 1, y: 1, z: 1}
   - path: Bone_Hip/Bone_Torso/Bone_Head/Bone_Antena
     localPosition: {x: 0.18296969, y: 1.421087e-13, z: 0}

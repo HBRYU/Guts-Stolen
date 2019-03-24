@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1273632632}
   - component: {fileID: 1273632633}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PoseManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Poses:
   - {fileID: 11400000, guid: a50b1db598ee05b41a3b1dadfaeb35a0, type: 2}
+  - {fileID: 11400000, guid: a9fc8714dc6332345a5797f41cf80519, type: 2}
+  - {fileID: 11400000, guid: 4baac30b937dfab42b510dff46f85166, type: 2}
 --- !u!1 &234452038896817873
 GameObject:
   m_ObjectHideFlags: 0
@@ -55,7 +57,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4628017677980359673}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BodyParts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7947032246360659844}
   - component: {fileID: 4076959377821968388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: New Ik Limb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8690738083047211343}
   - component: {fileID: 7180038455704428165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: IK_R_Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +185,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3409217081330342564}
   m_LocalRotation: {x: -0, y: -0, z: -0.09232264, w: 0.9957292}
-  m_LocalPosition: {x: -0.14851445, y: -0.8304273, z: 0.006591797}
+  m_LocalPosition: {x: -0.14851443, y: -0.83042717, z: 0.006591797}
   m_LocalScale: {x: 1, y: 0.95002, z: 1}
   m_Children:
   - {fileID: 7947032246360659844}
@@ -233,7 +235,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3767988285500113068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2725817741180575871}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: IK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4739319017974281946}
   - component: {fileID: 8856594082723557684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: New Ik Limb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551697849771269}
   - component: {fileID: 6654551697849771268}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_L_Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,7 +513,7 @@ GameObject:
   - component: {fileID: 6654551697897625861}
   - component: {fileID: 6654551697897625862}
   - component: {fileID: 6654551697897625860}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,7 +615,7 @@ GameObject:
   - component: {fileID: 6654551697943417780}
   - component: {fileID: 6654551697943417673}
   - component: {fileID: 6654551697943417783}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -715,7 +717,7 @@ GameObject:
   - component: {fileID: 6654551698037414150}
   - component: {fileID: 6654551698037414171}
   - component: {fileID: 6654551698037414169}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -816,7 +818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551698101919692}
   - component: {fileID: 6654551698101919695}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_R_Shoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -864,7 +866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551698136253171}
   - component: {fileID: 6654551698136253170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone__R_Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -899,7 +901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 0.3}
-  m_Length: 0.19909872
+  m_Length: 0.19909875
   m_ChildTransform: {fileID: 6654551698168413986}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6654551698168413987
@@ -912,7 +914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551698168413986}
   - component: {fileID: 6654551698168413989}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_R_Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1061,7 +1063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551698438022697}
   - component: {fileID: 6654551698438022696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone__R_Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,7 +1098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 0.3}
-  m_Length: 0.3854184
+  m_Length: 0.38541827
   m_ChildTransform: {fileID: 6654551699407882575}
   m_AttachedIK: {fileID: 7180038455704428165}
 --- !u!1 &6654551698570992188
@@ -1108,7 +1110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6654551698570992191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1140,7 +1142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551698700776721}
   - component: {fileID: 6654551698700776720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_Antena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1154,13 +1156,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6654551698700776734}
-  m_LocalRotation: {x: 0, y: 0, z: 0.59840876, w: 0.80119103}
+  m_LocalRotation: {x: 0, y: 0, z: 0.613951, w: 0.78934413}
   m_LocalPosition: {x: 0.18296969, y: 1.421087e-13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6654551699495731574}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 73.512}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 75.75101}
 --- !u!114 &6654551698700776720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1187,7 +1189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551698733199952}
   - component: {fileID: 6654551698733199955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_R_Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1222,7 +1224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 0.3}
-  m_Length: 0.4000004
+  m_Length: 0.40000027
   m_ChildTransform: {fileID: 6654551698438022697}
   m_AttachedIK: {fileID: 7180038455704428165}
 --- !u!1 &6654551698745361997
@@ -1236,7 +1238,7 @@ GameObject:
   - component: {fileID: 6654551698745361996}
   - component: {fileID: 6654551698745361985}
   - component: {fileID: 6654551698745361999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1338,7 +1340,7 @@ GameObject:
   - component: {fileID: 6654551698770835079}
   - component: {fileID: 6654551698770835096}
   - component: {fileID: 6654551698770835078}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1440,7 +1442,7 @@ GameObject:
   - component: {fileID: 6654551698794360285}
   - component: {fileID: 6654551698794360286}
   - component: {fileID: 6654551698794360284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L Shoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1542,7 +1544,7 @@ GameObject:
   - component: {fileID: 6654551698798651864}
   - component: {fileID: 6654551698798651869}
   - component: {fileID: 6654551698798651867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Antena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,7 +1646,7 @@ GameObject:
   - component: {fileID: 6654551698917056376}
   - component: {fileID: 6654551698917056381}
   - component: {fileID: 6654551698917056379}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1745,7 +1747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551699007670321}
   - component: {fileID: 6654551699007670320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_L_Shoudler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1780,7 +1782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 0.3}
-  m_Length: 0.2942021
+  m_Length: 0.29420197
   m_ChildTransform: {fileID: 6654551699573364945}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6654551699162335448
@@ -1798,7 +1800,7 @@ GameObject:
   - component: {fileID: 8528759017965620769}
   - component: {fileID: 1937338112582711738}
   - component: {fileID: 2429159295200029096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Droid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,7 +1887,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &8528759017965620769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1898,7 +1900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3cb87d470cdab94f82e26ceb71f44d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 500
   jumpForce: 10
   groundCheck: {fileID: 3767988285500113068}
   groundCheckRadius: 0.2
@@ -1913,7 +1915,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6654551699162335448}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ff10b6d89f450f343a392d1a11f8c0a0, type: 2}
   m_CullingMode: 0
@@ -1947,7 +1949,7 @@ GameObject:
   - component: {fileID: 6654551699180748119}
   - component: {fileID: 6654551699180748136}
   - component: {fileID: 6654551699180748118}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2049,7 +2051,7 @@ GameObject:
   - component: {fileID: 6654551699180805934}
   - component: {fileID: 6654551699180805923}
   - component: {fileID: 6654551699180805921}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R Shoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2150,7 +2152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551699224524421}
   - component: {fileID: 6654551699224524418}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_Hip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2173,7 +2175,7 @@ Transform:
   - {fileID: 6654551699754670233}
   m_Father: {fileID: 1273632632}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.00001}
 --- !u!114 &6654551699224524418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2187,7 +2189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 0.3}
-  m_Length: 0.2509886
+  m_Length: 0.25098866
   m_ChildTransform: {fileID: 6654551699799477906}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6654551699275291555
@@ -2200,7 +2202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551699275291554}
   - component: {fileID: 6654551699275291557}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_L_Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2235,7 +2237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 0.3}
-  m_Length: 0.38541824
+  m_Length: 0.38541812
   m_ChildTransform: {fileID: 6654551699350182991}
   m_AttachedIK: {fileID: 4101463817336496211}
 --- !u!1 &6654551699275547740
@@ -2249,7 +2251,7 @@ GameObject:
   - component: {fileID: 6654551699275547743}
   - component: {fileID: 6654551699275547728}
   - component: {fileID: 6654551699275547742}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2453,7 +2455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551699350182991}
   - component: {fileID: 6654551699350182990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_L_Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2501,7 +2503,7 @@ GameObject:
   - component: {fileID: 6654551699396658013}
   - component: {fileID: 6654551699396658014}
   - component: {fileID: 6654551699396658012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2602,7 +2604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551699407882575}
   - component: {fileID: 6654551699407882574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_R_Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2649,7 +2651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551699495731574}
   - component: {fileID: 6654551699495731465}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2663,8 +2665,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6654551699495731575}
-  m_LocalRotation: {x: 0, y: 0, z: -0.000052012496, w: 1}
-  m_LocalPosition: {x: 0.29887196, y: 0.000000016189006, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.0000519274, w: 1}
+  m_LocalPosition: {x: 0.29887015, y: -2.8422002e-13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6654551698700776721}
@@ -2684,7 +2686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 0.3}
-  m_Length: 0.18296972
+  m_Length: 0.18296963
   m_ChildTransform: {fileID: 6654551698700776721}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6654551699524049494
@@ -2698,7 +2700,7 @@ GameObject:
   - component: {fileID: 6654551699524049513}
   - component: {fileID: 6654551699524049514}
   - component: {fileID: 6654551699524049512}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2800,7 +2802,7 @@ GameObject:
   - component: {fileID: 6654551699564923096}
   - component: {fileID: 6654551699564923101}
   - component: {fileID: 6654551699564923099}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2901,7 +2903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551699573364945}
   - component: {fileID: 6654551699573364944}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_L_Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2936,7 +2938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 0.3}
-  m_Length: 0.1990989
+  m_Length: 0.19909893
   m_ChildTransform: {fileID: 6654551697849771269}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &6654551699583420895
@@ -2950,7 +2952,7 @@ GameObject:
   - component: {fileID: 6654551699583420894}
   - component: {fileID: 6654551699583420883}
   - component: {fileID: 6654551699583420881}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3051,7 +3053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551699754670233}
   - component: {fileID: 6654551699754670232}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_L_Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3086,7 +3088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 0.3}
-  m_Length: 0.40000033
+  m_Length: 0.4000002
   m_ChildTransform: {fileID: 6654551699275291554}
   m_AttachedIK: {fileID: 4101463817336496211}
 --- !u!1 &6654551699799477907
@@ -3099,7 +3101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6654551699799477906}
   - component: {fileID: 6654551699799477909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3136,7 +3138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 0.3}
-  m_Length: 0.29887205
+  m_Length: 0.2988702
   m_ChildTransform: {fileID: 6654551699495731574}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &7578249519774161299
@@ -3149,7 +3151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1286598449176618547}
   - component: {fileID: 4101463817336496211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: IK_R_Leg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3164,7 +3166,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7578249519774161299}
   m_LocalRotation: {x: -0, y: -0, z: 0.0891292, w: -0.9960201}
-  m_LocalPosition: {x: 0.11702514, y: -0.83206856, z: 0.006591797}
+  m_LocalPosition: {x: 0.11702514, y: -0.83206844, z: 0.006591797}
   m_LocalScale: {x: 1, y: 0.95002, z: 1}
   m_Children:
   - {fileID: 4739319017974281946}
